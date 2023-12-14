@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFF;
+}
+
+/* Primary color text */
+:root {
+    --primary-font-color: #3A3A3A;
+    --secondary-font-color: #18191F;
+    --primary-font-size: 16px;
+}
+
+/* Header section running */
+/* Navigation styles */
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 100px 0px 100px;
+}
+
+.nav-title {
+    color: var(--primary-font-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--primary-font-color);
+}
+
+nav ul {
+    list-style: none;
+    font-size: var(--primary-font-size);
+    font-weight: 600;
+}
+
+nav ul img {
+    height: 25px;
+    width: 25px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 35px;
+}
+
+/* banner-style */
+.banner-container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.banner-info {
+    color: var(--primary-font-color);
+}
+
+.banner-title {
+    font-size: 3.25rem;
+    font-weight: 700;
+}
+
+.banner-description {
+    font-size: var(--primary-font-size);
+    font-weight: 600;
+    width: 500px;
+}
+
+.btn-primary {
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 41px;
+    padding: 10px 24px;
+    color: #FFF;
+    font-size: var(--primary-font-size);
+    font-weight: 700;
+    margin-top: 30px;
+}
+i {
+    background-color: transparent;
+}
+.banner-img-container {
+    position: relative;
+}
+
+#banner-camera {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    height: 400px;
+    width: 400px;
+    background: none;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* logo style */
+.logo-container {
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid rgb(231, 227, 227);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
+    padding: 2.5rem;
+}
+
+/* card section */
+.card-main-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+
+.card-main-container h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card-grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 330px);
+    width: 75%;
+    margin: 0 auto;
+}
+
+.card-container {
+    height: 465px;
+    width: 317px;
+    padding-left: 17px;
+    padding-top: 17px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card-container img {
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: fixed;
+}
+
+.card-container h2 {
+    padding-top: 15px;
+    color: var(--secondary-font-color);
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.card-container h3 {
+    color: rgba(0, 0, 0, 0.87);
+    padding-top: 6px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.card-container p {
+    color: #5E6366;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.card-container h5 {
+    color: #787885;
+    font-size: 14px;
+    font-weight: 700;
+    width: 200px;
+}
+
+.btn-secondary {
+    color: rgba(224, 44, 109, 0.87);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    margin-top: 30px;
+    margin-left: 1100px;
+    background: none;
+}
+
+/* featured section */
+.featured-main {
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+/* footer section */
+.main-footer {
+    width: 100%;
+    height: 239px;
+    background-color: #0A0826;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+    .nav-main ul {
+        display: none;
+    }
+    
+}
